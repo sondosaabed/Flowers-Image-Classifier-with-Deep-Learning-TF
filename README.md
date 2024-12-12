@@ -1,5 +1,5 @@
 # Image-Classifier-with-Deep-Learning-TF
-Implementing an image classifier model using deep learning with Tensorflow. This is the second project of Intro to machine learning nanodegree
+In this project I work on implementing an image classifier model using deep learning with Tensorflow. This is the second project of Intro to machine learning nanodegree that I got as part of my scholarship with Palestine Launchpad.
 
 ## About this project 
 Project code for Udacity's Intro to Machine Learning with TensorFlow Nanodegree program. In this project, you will first develop code for an image classifier built with TensorFlow, then you will convert it into a command line application.
