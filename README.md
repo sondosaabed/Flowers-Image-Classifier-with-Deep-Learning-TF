@@ -1,13 +1,20 @@
 # Image-Classifier-with-Deep-Learning-TF
-In this project I work on implementing an image classifier model using deep learning with Tensorflow. This is the second project of Intro to machine learning nanodegree that I got as part of my scholarship with Palestine Launchpad.
+Going forward, AI algorithms will be incorporated into more and more everyday applications. For example, to include an image classifier in a smart phone app. That would be using a deep learning model trained on hundreds of thousands of images as part of the overall application architecture. A large part of software development in the future will be using these types of models as common parts of applications.  In this project, an image classifier is trained to recognize different species of flowers. Using something like this in a phone app that tells the name of the flower the camera is looking at. Here, this classifier is trained, then exported for use in the application. The dataset used [this dataset](http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html) from Oxford of 102 flower categories it is one of the tensorflow datsets.
 
-## About this project 
-Project code for Udacity's Intro to Machine Learning with TensorFlow Nanodegree program. In this project, you will first develop code for an image classifier built with TensorFlow, then you will convert it into a command line application.
 
-In order to complete this project, you will need to use the GPU enabled workspaces within the classroom.  The files are all available here for your convenience, but running on your local CPU will likely not work well.
+The project is broken down into multiple steps:
 
-You should also only enable the GPU when you need it. If you are not using the GPU, please disable it so you do not run out of time!
+* Load the image dataset and create a pipeline.
+* Build and Train an image classifier on this dataset.
+* Use your trained model to perform inference on flower images.
 
-### Data
 
-The data for this project is quite large - in fact, it is so large you cannot upload it onto Github.  If you would like the data for this project, you will want download it from the workspace in the classroom.  Though actually completing the project is likely not possible on your local unless you have a GPU.  You will be training using 102 different types of flowers, where there ~20 images per flower to train on.  Then you will use your trained classifier to see if you can predict the type for new images of the flowers.
+## Results
+
+![](html_notebook\html_images\d98991ac5367dba20bcc727ab21deca05ee98237.png)
+
+## Examples
+
+![](html_notebook\html_images\ebe7f56b0985e2750b2d0daf8ef36896fcb401e3.png)
+
+![](html_notebook\html_images\d98991ac5367dba20bcc727ab21deca05ee98237.png)
