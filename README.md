@@ -11,7 +11,7 @@ The project is broken down into multiple steps:
 
 ## Results
 
-![image](https://github.com/sondosaabed/Flowers-Image-Classifier-with-Deep-Learning-TF/html_notebook/html_images/d98991ac5367dba20bcc727ab21deca05ee98237.png)
+![image](https://github.com/sondosaabed/Flowers-Image-Classifier-with-Deep-Learning-TF/blob/main/html_notebook/html_images/d98991ac5367dba20bcc727ab21deca05ee98237.png)
 
 ## Examples
 
