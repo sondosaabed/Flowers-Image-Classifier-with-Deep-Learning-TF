@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>d1515da814c945f38367d6030aa65483</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="dfb7cc45" class="cell markdown" id="y00b5TQZnqs_"
+data-papermill="{&quot;duration&quot;:1.1292e-2,&quot;end_time&quot;:&quot;2025-01-15T19:02:55.701483&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:02:55.690191&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="flowers-image-classifier-project">Flowers Image Classifier
+Project</h1>
+<p>Going forward, AI algorithms will be incorporated into more and more
+everyday applications. For example, to include an image classifier in a
+smart phone app. That would be using a deep learning model trained on
+hundreds of thousands of images as part of the overall application
+architecture. A large part of software development in the future will be
+using these types of models as common parts of applications. In this
+project, an image classifier is trained to recognize different species
+of flowers. Using something like this in a phone app that tells the name
+of the flower the camera is looking at. Here, this classifier is
+trained, then exported for use in the application. The dataset used <a
+href="http://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html">this
+dataset</a> from Oxford of 102 flower categories it is one of the
+tensorflow datsets.</p>
+<p>The project is broken down into multiple steps:</p>
+<ul>
+<li>Load the image dataset and create a pipeline.</li>
+<li>Build and Train an image classifier on this dataset.</li>
+<li>Use your trained model to perform inference on flower images.</li>
+</ul>
+</div>
+<div id="615bda29" class="cell markdown" id="kKnPjnLAftRV"
+data-papermill="{&quot;duration&quot;:8.506e-3,&quot;end_time&quot;:&quot;2025-01-15T19:02:55.720098&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:02:55.711592&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h2 id="import-resources">Import Resources</h2>
+</div>
+<div id="96db0079" class="cell code" data-execution_count="1"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:02:55.739541Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:02:55.739134Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:04:16.965618Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:04:16.964506Z&quot;}"
+data-papermill="{&quot;duration&quot;:81.239759,&quot;end_time&quot;:&quot;2025-01-15T19:04:16.968470&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:02:55.728711&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install <span class="op">--</span>upgrade tensorflow<span class="op">==</span><span class="fl">2.14</span></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Collecting tensorflow==2.14
+  Downloading tensorflow-2.14.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+Requirement already satisfied: absl-py&gt;=1.0.0 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (1.4.0)
+Requirement already satisfied: astunparse&gt;=1.6.0 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (1.6.3)
+Requirement already satisfied: flatbuffers&gt;=23.5.26 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (24.3.25)
+Requirement already satisfied: gast!=0.5.0,!=0.5.1,!=0.5.2,&gt;=0.2.1 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (0.5.4)
+Requirement already satisfied: google-pasta&gt;=0.1.1 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (0.2.0)
+Requirement already satisfied: h5py&gt;=2.9.0 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (3.11.0)
+Requirement already satisfied: libclang&gt;=13.0.0 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (18.1.1)
+Collecting ml-dtypes==0.2.0 (from tensorflow==2.14)
+  Downloading ml_dtypes-0.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (20 kB)
+Requirement already satisfied: numpy&gt;=1.23.5 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (1.26.4)
+Requirement already satisfied: opt-einsum&gt;=2.3.2 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (3.3.0)
+Requirement already satisfied: packaging in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (21.3)
+Requirement already satisfied: protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,&lt;5.0.0dev,&gt;=3.20.3 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (3.20.3)
+Requirement already satisfied: setuptools in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (70.0.0)
+Requirement already satisfied: six&gt;=1.12.0 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (1.16.0)
+Requirement already satisfied: termcolor&gt;=1.1.0 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (2.4.0)
+Requirement already satisfied: typing-extensions&gt;=3.6.6 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (4.12.2)
+Collecting wrapt&lt;1.15,&gt;=1.11.0 (from tensorflow==2.14)
+  Downloading wrapt-1.14.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.7 kB)
+Requirement already satisfied: tensorflow-io-gcs-filesystem&gt;=0.23.1 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (0.37.0)
+Requirement already satisfied: grpcio&lt;2.0,&gt;=1.24.3 in /opt/conda/lib/python3.10/site-packages (from tensorflow==2.14) (1.62.2)
+Collecting tensorboard&lt;2.15,&gt;=2.14 (from tensorflow==2.14)
+  Downloading tensorboard-2.14.1-py3-none-any.whl.metadata (1.7 kB)
+Collecting tensorflow-estimator&lt;2.15,&gt;=2.14.0 (from tensorflow==2.14)
+  Downloading tensorflow_estimator-2.14.0-py2.py3-none-any.whl.metadata (1.3 kB)
+Collecting keras&lt;2.15,&gt;=2.14.0 (from tensorflow==2.14)
+  Downloading keras-2.14.0-py3-none-any.whl.metadata (2.4 kB)
+Requirement already satisfied: wheel&lt;1.0,&gt;=0.23.0 in /opt/conda/lib/python3.10/site-packages (from astunparse&gt;=1.6.0-&gt;tensorflow==2.14) (0.43.0)
+Requirement already satisfied: google-auth&lt;3,&gt;=1.6.3 in /opt/conda/lib/python3.10/site-packages (from tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (2.30.0)
+Collecting google-auth-oauthlib&lt;1.1,&gt;=0.5 (from tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14)
+  Downloading google_auth_oauthlib-1.0.0-py2.py3-none-any.whl.metadata (2.7 kB)
+Requirement already satisfied: markdown&gt;=2.6.8 in /opt/conda/lib/python3.10/site-packages (from tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (3.6)
+Requirement already satisfied: requests&lt;3,&gt;=2.21.0 in /opt/conda/lib/python3.10/site-packages (from tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (2.32.3)
+Requirement already satisfied: tensorboard-data-server&lt;0.8.0,&gt;=0.7.0 in /opt/conda/lib/python3.10/site-packages (from tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (0.7.2)
+Requirement already satisfied: werkzeug&gt;=1.0.1 in /opt/conda/lib/python3.10/site-packages (from tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (3.1.3)
+Requirement already satisfied: pyparsing!=3.0.5,&gt;=2.0.2 in /opt/conda/lib/python3.10/site-packages (from packaging-&gt;tensorflow==2.14) (3.1.2)
+Requirement already satisfied: cachetools&lt;6.0,&gt;=2.0.0 in /opt/conda/lib/python3.10/site-packages (from google-auth&lt;3,&gt;=1.6.3-&gt;tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (4.2.4)
+Requirement already satisfied: pyasn1-modules&gt;=0.2.1 in /opt/conda/lib/python3.10/site-packages (from google-auth&lt;3,&gt;=1.6.3-&gt;tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (0.4.0)
+Requirement already satisfied: rsa&lt;5,&gt;=3.1.4 in /opt/conda/lib/python3.10/site-packages (from google-auth&lt;3,&gt;=1.6.3-&gt;tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (4.9)
+Requirement already satisfied: requests-oauthlib&gt;=0.7.0 in /opt/conda/lib/python3.10/site-packages (from google-auth-oauthlib&lt;1.1,&gt;=0.5-&gt;tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (2.0.0)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /opt/conda/lib/python3.10/site-packages (from requests&lt;3,&gt;=2.21.0-&gt;tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (3.3.2)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /opt/conda/lib/python3.10/site-packages (from requests&lt;3,&gt;=2.21.0-&gt;tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (3.7)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /opt/conda/lib/python3.10/site-packages (from requests&lt;3,&gt;=2.21.0-&gt;tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (1.26.18)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /opt/conda/lib/python3.10/site-packages (from requests&lt;3,&gt;=2.21.0-&gt;tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (2024.6.2)
+Requirement already satisfied: MarkupSafe&gt;=2.1.1 in /opt/conda/lib/python3.10/site-packages (from werkzeug&gt;=1.0.1-&gt;tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (2.1.5)
+Requirement already satisfied: pyasn1&lt;0.7.0,&gt;=0.4.6 in /opt/conda/lib/python3.10/site-packages (from pyasn1-modules&gt;=0.2.1-&gt;google-auth&lt;3,&gt;=1.6.3-&gt;tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (0.6.0)
+Requirement already satisfied: oauthlib&gt;=3.0.0 in /opt/conda/lib/python3.10/site-packages (from requests-oauthlib&gt;=0.7.0-&gt;google-auth-oauthlib&lt;1.1,&gt;=0.5-&gt;tensorboard&lt;2.15,&gt;=2.14-&gt;tensorflow==2.14) (3.2.2)
+Downloading tensorflow-2.14.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (489.8 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 489.8/489.8 MB 3.0 MB/s eta 0:00:00
+l_dtypes-0.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.0 MB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 39.7 MB/s eta 0:00:00
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 54.3 MB/s eta 0:00:00
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 85.5 MB/s eta 0:00:00
+ator-2.14.0-py2.py3-none-any.whl (440 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 440.7/440.7 kB 25.2 MB/s eta 0:00:00
+anylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (77 kB)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 77.9/77.9 kB 4.7 MB/s eta 0:00:00
+ator, ml-dtypes, keras, google-auth-oauthlib, tensorboard, tensorflow
+  Attempting uninstall: wrapt
+    Found existing installation: wrapt 1.16.0
+    Uninstalling wrapt-1.16.0:
+      Successfully uninstalled wrapt-1.16.0
+  Attempting uninstall: tensorflow-estimator
+    Found existing installation: tensorflow-estimator 2.15.0
+    Uninstalling tensorflow-estimator-2.15.0:
+      Successfully uninstalled tensorflow-estimator-2.15.0
+  Attempting uninstall: ml-dtypes
+    Found existing installation: ml-dtypes 0.3.2
+    Uninstalling ml-dtypes-0.3.2:
+      Successfully uninstalled ml-dtypes-0.3.2
+  Attempting uninstall: keras
+    Found existing installation: keras 3.3.3
+    Uninstalling keras-3.3.3:
+      Successfully uninstalled keras-3.3.3
+  Attempting uninstall: google-auth-oauthlib
+    Found existing installation: google-auth-oauthlib 1.2.0
+    Uninstalling google-auth-oauthlib-1.2.0:
+      Successfully uninstalled google-auth-oauthlib-1.2.0
+  Attempting uninstall: tensorboard
+    Found existing installation: tensorboard 2.16.2
+    Uninstalling tensorboard-2.16.2:
+      Successfully uninstalled tensorboard-2.16.2
+  Attempting uninstall: tensorflow
+    Found existing installation: tensorflow 2.16.1
+    Uninstalling tensorflow-2.16.1:
+      Successfully uninstalled tensorflow-2.16.1
+ERROR: pip&#39;s dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+gcsfs 2024.9.0.post1 requires fsspec==2024.9.0, but you have fsspec 2024.6.0 which is incompatible.
+s3fs 2024.9.0 requires fsspec==2024.9.0.*, but you have fsspec 2024.6.0 which is incompatible.
+tensorflow-decision-forests 1.9.1 requires tensorflow~=2.16.1, but you have tensorflow 2.14.0 which is incompatible.
+tensorflow-serving-api 2.16.1 requires tensorflow&lt;3,&gt;=2.16.1, but you have tensorflow 2.14.0 which is incompatible.
+tensorflow-text 2.16.1 requires tensorflow&lt;2.17,&gt;=2.16.1; platform_machine != &quot;arm64&quot; or platform_system != &quot;Darwin&quot;, but you have tensorflow 2.14.0 which is incompatible.
+tensorstore 0.1.69 requires ml-dtypes&gt;=0.3.1, but you have ml-dtypes 0.2.0 which is incompatible.
+tf-keras 2.16.0 requires tensorflow&lt;2.17,&gt;=2.16, but you have tensorflow 2.14.0 which is incompatible.
+Successfully installed google-auth-oauthlib-1.0.0 keras-2.14.0 ml-dtypes-0.2.0 tensorboard-2.14.1 tensorflow-2.14.0 tensorflow-estimator-2.14.0 wrapt-1.14.1
+</code></pre>
+</div>
+</div>
+<div id="a6dd1485" class="cell code" data-execution_count="2"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:04:17.001983Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:04:17.001661Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:04:25.383570Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:04:25.382301Z&quot;}"
+id="2dCk6873paNW"
+data-papermill="{&quot;duration&quot;:8.402073,&quot;end_time&quot;:&quot;2025-01-15T19:04:25.386784&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:04:16.984711&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Making all necessary imports.</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow <span class="im">as</span> tf</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow_hub <span class="im">as</span> hub</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> tensorflow_datasets <span class="im">as</span> tfds</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> json</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> PIL <span class="im">import</span> Image</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras <span class="im">import</span> layers</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="co">## tf used version </span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(tf.__version__)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>2025-01-15 19:04:18.299655: E tensorflow/compiler/xla/stream_executor/cuda/cuda_dnn.cc:9342] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-01-15 19:04:18.299726: E tensorflow/compiler/xla/stream_executor/cuda/cuda_fft.cc:609] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-01-15 19:04:18.299796: E tensorflow/compiler/xla/stream_executor/cuda/cuda_blas.cc:1518] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>2.14.0
+</code></pre>
+</div>
+</div>
+<div id="ac4cf1bd" class="cell code" data-execution_count="3"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:04:25.450580Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:04:25.449921Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:04:25.764418Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:04:25.763418Z&quot;}"
+data-papermill="{&quot;duration&quot;:0.343055,&quot;end_time&quot;:&quot;2025-01-15T19:04:25.766676&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:04:25.423621&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Num GPUs Available: &quot;</span>, <span class="bu">len</span>(tf.config.experimental.list_physical_devices(<span class="st">&#39;GPU&#39;</span>)))</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co">## there is an issue with compatabilty for tensorflow 2.16 I had to downgrade and downgrading caused inactivation of GPUs :(</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Num GPUs Available:  0
+</code></pre>
+</div>
+</div>
+<div id="24e8cb24" class="cell markdown" id="tWKF0YOarpCx"
+data-papermill="{&quot;duration&quot;:3.0045e-2,&quot;end_time&quot;:&quot;2025-01-15T19:04:25.823549&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:04:25.793504&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h2 id="load-the-dataset">Load the Dataset</h2>
+<p>Here the <code>tensorflow_datasets</code> are used to load the <a
+href="https://www.tensorflow.org/datasets/catalog/oxford_flowers102">Oxford
+Flowers 102 dataset</a>. This dataset has 3 splits:
+<code>'train'</code>, <code>'test'</code>, and
+<code>'validation'</code>. The training data is normalized and resized
+to 224x224 pixels as required by the pre-trained networks. The
+validation and testing sets are used to measure the model's performance
+on data it hasn't seen yet, but they still need to be normalize and
+resized the images to the appropriate size.</p>
+</div>
+<div id="54defe54" class="cell code" data-execution_count="4"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:04:25.877336Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:04:25.876603Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:04:25.880820Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:04:25.879928Z&quot;}"
+data-papermill="{&quot;duration&quot;:3.12e-2,&quot;end_time&quot;:&quot;2025-01-15T19:04:25.882704&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:04:25.851504&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>splits <span class="op">=</span> [<span class="st">&#39;test[:80%]&#39;</span>, <span class="st">&#39;test[80%:]&#39;</span>, <span class="st">&#39;train&#39;</span>]</span></code></pre></div>
+</div>
+<div id="b4d277d0" class="cell markdown"
+data-papermill="{&quot;duration&quot;:1.6515e-2,&quot;end_time&quot;:&quot;2025-01-15T19:04:25.916423&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:04:25.899908&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<blockquote>
+<p>I have used the test split here since it's much larger than the
+train, that would result in a better performance.</p>
+</blockquote>
+</div>
+<div id="08bde4df" class="cell code" data-execution_count="5"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:04:25.951146Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:04:25.950800Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:04:58.988971Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:04:58.987952Z&quot;}"
+data-papermill="{&quot;duration&quot;:33.057924,&quot;end_time&quot;:&quot;2025-01-15T19:04:58.990928&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:04:25.933004&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the dataset with TensorFlow Datasets.</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>dataset, dateset_info <span class="op">=</span> tfds.load(<span class="st">&#39;oxford_flowers102&#39;</span>, split<span class="op">=</span> splits, with_info<span class="op">=</span> <span class="va">True</span>, as_supervised<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a training set, a validation set and a test set.</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>training_set, validation_set, test_set <span class="op">=</span> dataset </span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Downloading and preparing dataset 328.90 MiB (download: 328.90 MiB, generated: 331.34 MiB, total: 660.25 MiB) to /root/tensorflow_datasets/oxford_flowers102/2.1.1...
+</code></pre>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;314a9666784a4cd9999e3a5c52d84d07&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;80b530b041e54c0aa9cdd7410d44238f&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;e469038c7fee4be986b8262400ee1382&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;de4b0ede7c9f42b1b8e09cfefc8a199c&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;8b97841391734660806970ddecc2e5a1&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;0dddf739c58a4fd58e1364cf94f34c22&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;f6963ad837e34d1fba7a9cdd7673e018&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;d9d7c06bf35342718d5be8dc5ae36b56&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;6b1efc35b6544627a6fa11b992d136b7&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;f071d62abfbb4476887d11532c498d37&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>Dataset oxford_flowers102 downloaded and prepared to /root/tensorflow_datasets/oxford_flowers102/2.1.1. Subsequent calls will reuse this data.
+</code></pre>
+</div>
+</div>
+<div id="60a6f0da" class="cell markdown" id="S5pdQnDbf0-j"
+data-papermill="{&quot;duration&quot;:1.814e-2,&quot;end_time&quot;:&quot;2025-01-15T19:04:59.028707&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:04:59.010567&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h2 id="explore-the-dataset">Explore the Dataset</h2>
+</div>
+<div id="2ccde893" class="cell code" data-execution_count="6"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:04:59.069582Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:04:59.068844Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:04:59.075438Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:04:59.074506Z&quot;}"
+data-papermill="{&quot;duration&quot;:3.0318e-2,&quot;end_time&quot;:&quot;2025-01-15T19:04:59.077334&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:04:59.047016&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;There are </span><span class="sc">{</span><span class="bu">len</span>(training_set)<span class="sc">}</span><span class="ss"> images in the training set&#39;</span>)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;There are </span><span class="sc">{</span><span class="bu">len</span>(validation_set)<span class="sc">}</span><span class="ss"> images in the validation set&#39;</span>)</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&#39;There are </span><span class="sc">{</span><span class="bu">len</span>(test_set)<span class="sc">}</span><span class="ss"> images in the test set&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>There are 4919 images in the training set
+There are 1230 images in the validation set
+There are 1020 images in the test set
+</code></pre>
+</div>
+</div>
+<div id="6748b777" class="cell code" data-execution_count="7"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:04:59.114599Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:04:59.113793Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:04:59.120295Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:04:59.119374Z&quot;}"
+data-papermill="{&quot;duration&quot;:2.7338e-2,&quot;end_time&quot;:&quot;2025-01-15T19:04:59.122258&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:04:59.094920&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>dateset_info</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<pre><code>tfds.core.DatasetInfo(
+    name=&#39;oxford_flowers102&#39;,
+    full_name=&#39;oxford_flowers102/2.1.1&#39;,
+    description=&quot;&quot;&quot;
+    The Oxford Flowers 102 dataset is a consistent of 102 flower categories commonly
+    occurring in the United Kingdom. Each class consists of between 40 and 258
+    images. The images have large scale, pose and light variations. In addition,
+    there are categories that have large variations within the category and several
+    very similar categories.
+    
+    The dataset is divided into a training set, a validation set and a test set. The
+    training set and validation set each consist of 10 images per class (totalling
+    1020 images each). The test set consists of the remaining 6149 images (minimum
+    20 per class).
+    
+    Note: The dataset by default comes with a test size larger than the train size.
+    For more info see this
+    [issue](https://github.com/tensorflow/datasets/issues/3022).
+    &quot;&quot;&quot;,
+    homepage=&#39;https://www.robots.ox.ac.uk/~vgg/data/flowers/102/&#39;,
+    data_dir=PosixGPath(&#39;/tmp/tmpbuuwbpzotfds&#39;),
+    file_format=tfrecord,
+    download_size=328.90 MiB,
+    dataset_size=331.34 MiB,
+    features=FeaturesDict({
+        &#39;file_name&#39;: Text(shape=(), dtype=string),
+        &#39;image&#39;: Image(shape=(None, None, 3), dtype=uint8),
+        &#39;label&#39;: ClassLabel(shape=(), dtype=int64, num_classes=102),
+    }),
+    supervised_keys=(&#39;image&#39;, &#39;label&#39;),
+    disable_shuffling=False,
+    splits={
+        &#39;test&#39;: &lt;SplitInfo num_examples=6149, num_shards=2&gt;,
+        &#39;train&#39;: &lt;SplitInfo num_examples=1020, num_shards=1&gt;,
+        &#39;validation&#39;: &lt;SplitInfo num_examples=1020, num_shards=1&gt;,
+    },
+    citation=&quot;&quot;&quot;@InProceedings{Nilsback08,
+       author = &quot;Nilsback, M-E. and Zisserman, A.&quot;,
+       title = &quot;Automated Flower Classification over a Large Number of Classes&quot;,
+       booktitle = &quot;Proceedings of the Indian Conference on Computer Vision, Graphics and Image Processing&quot;,
+       year = &quot;2008&quot;,
+       month = &quot;Dec&quot;
+    }&quot;&quot;&quot;,
+)</code></pre>
+</div>
+</div>
+<div id="dcca8442" class="cell code" data-execution_count="8"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:04:59.160715Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:04:59.159966Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:04:59.165928Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:04:59.165041Z&quot;}"
+id="XikJ4X7FUv8v" data-outputId="10240009-1148-41ae-8ce0-4025c2f2fa87"
+data-papermill="{&quot;duration&quot;:2.7419e-2,&quot;end_time&quot;:&quot;2025-01-15T19:04:59.168202&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:04:59.140783&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Get the number of examples in each set from the dataset info.</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>classes <span class="op">=</span> dateset_info.features[<span class="st">&#39;label&#39;</span>].num_classes</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;The number of classes in this dataset is: &quot;</span>, classes)</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a><span class="co">## Get the number of classes in the dataset from the dataset info.</span></span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>examples <span class="op">=</span> dateset_info.splits[<span class="st">&#39;train&#39;</span>].num_examples</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;The number of examples in the train set is: &quot;</span>, examples)</span>
+<span id="cb26-8"><a href="#cb26-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-9"><a href="#cb26-9" aria-hidden="true" tabindex="-1"></a>examples <span class="op">=</span> dateset_info.splits[<span class="st">&#39;train&#39;</span>].num_examples</span>
+<span id="cb26-10"><a href="#cb26-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;The number of examples in the validation set is: &quot;</span>, examples)</span>
+<span id="cb26-11"><a href="#cb26-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-12"><a href="#cb26-12" aria-hidden="true" tabindex="-1"></a>examples_test <span class="op">=</span> dateset_info.splits[<span class="st">&#39;test&#39;</span>].num_examples</span>
+<span id="cb26-13"><a href="#cb26-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;The number of examples in the test set is: &quot;</span>, examples_test)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The number of classes in this dataset is:  102
+The number of examples in the train set is:  1020
+The number of examples in the validation set is:  1020
+The number of examples in the test set is:  6149
+</code></pre>
+</div>
+</div>
+<div id="27e3e763" class="cell code" data-execution_count="9"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:04:59.206332Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:04:59.205893Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:04:59.274633Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:04:59.273553Z&quot;}"
+data-papermill="{&quot;duration&quot;:9.0233e-2,&quot;end_time&quot;:&quot;2025-01-15T19:04:59.277215&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:04:59.186982&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Checking how the elemnt structure is in this dataset</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> element <span class="kw">in</span> training_set.take(<span class="dv">1</span>):</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(element)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>(&lt;tf.Tensor: shape=(542, 500, 3), dtype=uint8, numpy=
+array([[[ 10,  17,   9],
+        [ 10,  17,   9],
+        [ 10,  17,   9],
+        ...,
+        [ 14,  15,   9],
+        [ 14,  15,   9],
+        [ 14,  15,   9]],
+
+       [[ 10,  17,   9],
+        [ 10,  17,   9],
+        [ 10,  17,   9],
+        ...,
+        [ 15,  16,  10],
+        [ 15,  16,  10],
+        [ 15,  16,  10]],
+
+       [[ 10,  17,   9],
+        [ 10,  17,   9],
+        [ 10,  17,   9],
+        ...,
+        [ 15,  16,  11],
+        [ 15,  16,  11],
+        [ 15,  16,  11]],
+
+       ...,
+
+       [[ 56,  69,  25],
+        [ 55,  66,  23],
+        [ 55,  64,  19],
+        ...,
+        [107, 144,  12],
+        [133, 170,  39],
+        [160, 197,  65]],
+
+       [[ 62,  69,  28],
+        [ 59,  66,  25],
+        [ 56,  61,  21],
+        ...,
+        [110, 145,  15],
+        [137, 172,  44],
+        [164, 199,  69]],
+
+       [[ 65,  69,  32],
+        [ 62,  66,  29],
+        [ 59,  59,  23],
+        ...,
+        [111, 146,  18],
+        [139, 174,  46],
+        [167, 202,  74]]], dtype=uint8)&gt;, &lt;tf.Tensor: shape=(), dtype=int64, numpy=40&gt;)
+</code></pre>
+</div>
+</div>
+<div id="3cad92bc" class="cell code" data-execution_count="10"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:04:59.317437Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:04:59.316470Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:04:59.380272Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:04:59.379151Z&quot;}"
+id="CWR9ScCbPI_D" data-outputId="fdf01c8d-2db9-4d7c-a566-4db2599fd1ab"
+data-papermill="{&quot;duration&quot;:8.5607e-2,&quot;end_time&quot;:&quot;2025-01-15T19:04:59.382267&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:04:59.296660&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Print the shape and corresponding label of 3 images in the training set.</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> element <span class="kw">in</span> training_set.take(<span class="dv">3</span>):</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> element[<span class="dv">0</span>]</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>    label <span class="op">=</span> element[<span class="dv">1</span>]</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;The images in our dataset have: &quot;</span>)</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Datatype: &quot;</span>, image.dtype)</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Shape: &quot;</span>, image.shape)</span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;The labels in our dataset have: &quot;</span>)</span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Datatype: &quot;</span>, label.dtype)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>The images in our dataset have: 
+Datatype:  &lt;dtype: &#39;uint8&#39;&gt;
+Shape:  (542, 500, 3)
+The labels in our dataset have: 
+Datatype:  &lt;dtype: &#39;int64&#39;&gt;
+The images in our dataset have: 
+Datatype:  &lt;dtype: &#39;uint8&#39;&gt;
+Shape:  (748, 500, 3)
+The labels in our dataset have: 
+Datatype:  &lt;dtype: &#39;int64&#39;&gt;
+The images in our dataset have: 
+Datatype:  &lt;dtype: &#39;uint8&#39;&gt;
+Shape:  (500, 600, 3)
+The labels in our dataset have: 
+Datatype:  &lt;dtype: &#39;int64&#39;&gt;
+</code></pre>
+</div>
+</div>
+<div id="3f009319" class="cell markdown"
+data-papermill="{&quot;duration&quot;:1.7914e-2,&quot;end_time&quot;:&quot;2025-01-15T19:04:59.418422&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:04:59.400508&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<blockquote>
+<p>It is noticed that the images don't have the same sizes.</p>
+</blockquote>
+</div>
+<div id="b9ce4d9d" class="cell code" data-execution_count="11"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:04:59.455685Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:04:59.455387Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:04:59.979971Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:04:59.979017Z&quot;}"
+id="DQbnq8htRTnl" data-outputId="32a0e1af-2b04-440e-ddb4-835732be3e83"
+data-papermill="{&quot;duration&quot;:0.548731,&quot;end_time&quot;:&quot;2025-01-15T19:04:59.985143&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:04:59.436412&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot 1 image from the training set. Set the title </span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> element <span class="kw">in</span> training_set.take(<span class="dv">3</span>):</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> element[<span class="dv">0</span>].numpy().squeeze() <span class="co">## remove dimension</span></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>    label <span class="op">=</span> element[<span class="dv">1</span>].numpy()</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>plt.imshow(image, cmap <span class="op">=</span> plt.cm.binary)</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>plt.title(label)</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>plt.colorbar()</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a><span class="co"># of the plot to the corresponding image label. </span></span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;The label of this image is: &quot;</span>, label)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="html_images/1e1632680e203ebc2a8e6c5545d7dc20a86b9d16.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>The label of this image is:  42
+</code></pre>
+</div>
+</div>
+<div id="d8e5d9ae" class="cell markdown" id="zuh1841cs-j1"
+data-papermill="{&quot;duration&quot;:2.3588e-2,&quot;end_time&quot;:&quot;2025-01-15T19:05:00.032805&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:00.009217&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h3 id="label-mapping">Label Mapping</h3>
+<p>You'll also need to load in a mapping from label to category name.
+You can find this in the file <code>label_map.json</code>. It's a JSON
+object which you can read in with the <a
+href="https://docs.python.org/3.7/library/json.html"><code>json</code>
+module</a>. This will give you a dictionary mapping the integer coded
+labels to the actual names of the flowers.</p>
+</div>
+<div id="75b92bde" class="cell code" data-execution_count="12"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:05:00.084734Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:05:00.083877Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:05:00.095295Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:05:00.094164Z&quot;}"
+id="JoVzdO3KsdSk"
+data-papermill="{&quot;duration&quot;:3.816e-2,&quot;end_time&quot;:&quot;2025-01-15T19:05:00.097085&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:00.058925&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="co">## since I&#39;m working on kaggle teh file name is diffrent than the udacity workplace</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&#39;/kaggle/input/pytorch-challange-flower-dataset/cat_to_name.json&#39;</span>, <span class="st">&#39;r&#39;</span>) <span class="im">as</span> f:</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>    class_names <span class="op">=</span> json.load(f)</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(class_names)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{&#39;21&#39;: &#39;fire lily&#39;, &#39;3&#39;: &#39;canterbury bells&#39;, &#39;45&#39;: &#39;bolero deep blue&#39;, &#39;1&#39;: &#39;pink primrose&#39;, &#39;34&#39;: &#39;mexican aster&#39;, &#39;27&#39;: &#39;prince of wales feathers&#39;, &#39;7&#39;: &#39;moon orchid&#39;, &#39;16&#39;: &#39;globe-flower&#39;, &#39;25&#39;: &#39;grape hyacinth&#39;, &#39;26&#39;: &#39;corn poppy&#39;, &#39;79&#39;: &#39;toad lily&#39;, &#39;39&#39;: &#39;siam tulip&#39;, &#39;24&#39;: &#39;red ginger&#39;, &#39;67&#39;: &#39;spring crocus&#39;, &#39;35&#39;: &#39;alpine sea holly&#39;, &#39;32&#39;: &#39;garden phlox&#39;, &#39;10&#39;: &#39;globe thistle&#39;, &#39;6&#39;: &#39;tiger lily&#39;, &#39;93&#39;: &#39;ball moss&#39;, &#39;33&#39;: &#39;love in the mist&#39;, &#39;9&#39;: &#39;monkshood&#39;, &#39;102&#39;: &#39;blackberry lily&#39;, &#39;14&#39;: &#39;spear thistle&#39;, &#39;19&#39;: &#39;balloon flower&#39;, &#39;100&#39;: &#39;blanket flower&#39;, &#39;13&#39;: &#39;king protea&#39;, &#39;49&#39;: &#39;oxeye daisy&#39;, &#39;15&#39;: &#39;yellow iris&#39;, &#39;61&#39;: &#39;cautleya spicata&#39;, &#39;31&#39;: &#39;carnation&#39;, &#39;64&#39;: &#39;silverbush&#39;, &#39;68&#39;: &#39;bearded iris&#39;, &#39;63&#39;: &#39;black-eyed susan&#39;, &#39;69&#39;: &#39;windflower&#39;, &#39;62&#39;: &#39;japanese anemone&#39;, &#39;20&#39;: &#39;giant white arum lily&#39;, &#39;38&#39;: &#39;great masterwort&#39;, &#39;4&#39;: &#39;sweet pea&#39;, &#39;86&#39;: &#39;tree mallow&#39;, &#39;101&#39;: &#39;trumpet creeper&#39;, &#39;42&#39;: &#39;daffodil&#39;, &#39;22&#39;: &#39;pincushion flower&#39;, &#39;2&#39;: &#39;hard-leaved pocket orchid&#39;, &#39;54&#39;: &#39;sunflower&#39;, &#39;66&#39;: &#39;osteospermum&#39;, &#39;70&#39;: &#39;tree poppy&#39;, &#39;85&#39;: &#39;desert-rose&#39;, &#39;99&#39;: &#39;bromelia&#39;, &#39;87&#39;: &#39;magnolia&#39;, &#39;5&#39;: &#39;english marigold&#39;, &#39;92&#39;: &#39;bee balm&#39;, &#39;28&#39;: &#39;stemless gentian&#39;, &#39;97&#39;: &#39;mallow&#39;, &#39;57&#39;: &#39;gaura&#39;, &#39;40&#39;: &#39;lenten rose&#39;, &#39;47&#39;: &#39;marigold&#39;, &#39;59&#39;: &#39;orange dahlia&#39;, &#39;48&#39;: &#39;buttercup&#39;, &#39;55&#39;: &#39;pelargonium&#39;, &#39;36&#39;: &#39;ruby-lipped cattleya&#39;, &#39;91&#39;: &#39;hippeastrum&#39;, &#39;29&#39;: &#39;artichoke&#39;, &#39;71&#39;: &#39;gazania&#39;, &#39;90&#39;: &#39;canna lily&#39;, &#39;18&#39;: &#39;peruvian lily&#39;, &#39;98&#39;: &#39;mexican petunia&#39;, &#39;8&#39;: &#39;bird of paradise&#39;, &#39;30&#39;: &#39;sweet william&#39;, &#39;17&#39;: &#39;purple coneflower&#39;, &#39;52&#39;: &#39;wild pansy&#39;, &#39;84&#39;: &#39;columbine&#39;, &#39;12&#39;: &quot;colt&#39;s foot&quot;, &#39;11&#39;: &#39;snapdragon&#39;, &#39;96&#39;: &#39;camellia&#39;, &#39;23&#39;: &#39;fritillary&#39;, &#39;50&#39;: &#39;common dandelion&#39;, &#39;44&#39;: &#39;poinsettia&#39;, &#39;53&#39;: &#39;primula&#39;, &#39;72&#39;: &#39;azalea&#39;, &#39;65&#39;: &#39;californian poppy&#39;, &#39;80&#39;: &#39;anthurium&#39;, &#39;76&#39;: &#39;morning glory&#39;, &#39;37&#39;: &#39;cape flower&#39;, &#39;56&#39;: &#39;bishop of llandaff&#39;, &#39;60&#39;: &#39;pink-yellow dahlia&#39;, &#39;82&#39;: &#39;clematis&#39;, &#39;58&#39;: &#39;geranium&#39;, &#39;75&#39;: &#39;thorn apple&#39;, &#39;41&#39;: &#39;barbeton daisy&#39;, &#39;95&#39;: &#39;bougainvillea&#39;, &#39;43&#39;: &#39;sword lily&#39;, &#39;83&#39;: &#39;hibiscus&#39;, &#39;78&#39;: &#39;lotus lotus&#39;, &#39;88&#39;: &#39;cyclamen&#39;, &#39;94&#39;: &#39;foxglove&#39;, &#39;81&#39;: &#39;frangipani&#39;, &#39;74&#39;: &#39;rose&#39;, &#39;89&#39;: &#39;watercress&#39;, &#39;73&#39;: &#39;water lily&#39;, &#39;46&#39;: &#39;wallflower&#39;, &#39;77&#39;: &#39;passion flower&#39;, &#39;51&#39;: &#39;petunia&#39;}
+</code></pre>
+</div>
+</div>
+<div id="0a7c5382" class="cell code" data-execution_count="13"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:05:00.146361Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:05:00.145512Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:05:00.609927Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:05:00.609038Z&quot;}"
+id="fc6pMUZgEvUo" data-outputId="4274fd43-5cee-4523-885f-a18f6f277dd6"
+data-papermill="{&quot;duration&quot;:0.494689,&quot;end_time&quot;:&quot;2025-01-15T19:05:00.615615&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:00.120926&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot 1 image from the training set. Set the title </span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> element <span class="kw">in</span> training_set.take(<span class="dv">1</span>):</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> element[<span class="dv">0</span>].numpy().squeeze() <span class="co">## remove dimension</span></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>    label <span class="op">=</span> element[<span class="dv">1</span>].numpy()</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>plt.imshow(image, cmap <span class="op">=</span> plt.cm.binary)</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a>plt.title(class_names[<span class="bu">str</span>(label)])</span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a>plt.colorbar()</span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a><span class="co"># of the plot to the corresponding class name. </span></span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;The label of this image is: &quot;</span>, class_names[<span class="bu">str</span>(label)])</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="html_images/4a335b94bae770a51fffb913d0946bf2957039a3.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>The label of this image is:  lenten rose
+</code></pre>
+</div>
+</div>
+<div id="87764f6c" class="cell markdown" id="0gL7AaqNf-NC"
+data-papermill="{&quot;duration&quot;:2.7008e-2,&quot;end_time&quot;:&quot;2025-01-15T19:05:00.672911&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:00.645903&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h2 id="create-pipeline">Create Pipeline</h2>
+</div>
+<div id="80964085" class="cell code" data-execution_count="14"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:05:00.728636Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:05:00.727951Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:05:00.732147Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:05:00.731237Z&quot;}"
+data-papermill="{&quot;duration&quot;:3.4305e-2,&quot;end_time&quot;:&quot;2025-01-15T19:05:00.733845&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:00.699540&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>BATCH_SIZE <span class="op">=</span> <span class="dv">64</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>IMAGE_SHAPE <span class="op">=</span> (<span class="dv">224</span>, <span class="dv">224</span>)</span></code></pre></div>
+</div>
+<div id="e90809e4" class="cell code" data-execution_count="15"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:05:00.789880Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:05:00.789276Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:05:00.794129Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:05:00.793259Z&quot;}"
+id="5hNznLbPNZxS" data-outputId="7c114910-b75f-4220-cda9-f84426ec2728"
+data-papermill="{&quot;duration&quot;:3.4741e-2,&quot;end_time&quot;:&quot;2025-01-15T19:05:00.795715&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:00.760974&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb39"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> preprocessing(image, label):</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a><span class="co">        - image </span></span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a><span class="co">        - label</span></span>
+<span id="cb39-6"><a href="#cb39-6" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb39-7"><a href="#cb39-7" aria-hidden="true" tabindex="-1"></a><span class="co">        Normalized image and label</span></span>
+<span id="cb39-8"><a href="#cb39-8" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb39-9"><a href="#cb39-9" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> tf.image.resize(image, IMAGE_SHAPE)</span>
+<span id="cb39-10"><a href="#cb39-10" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> tf.cast(image, tf.float32)</span>
+<span id="cb39-11"><a href="#cb39-11" aria-hidden="true" tabindex="-1"></a>    image <span class="op">/=</span> <span class="dv">255</span></span>
+<span id="cb39-12"><a href="#cb39-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> image, label</span></code></pre></div>
+</div>
+<div id="e5fa5b68" class="cell code" data-execution_count="16"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:05:00.851555Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:05:00.851254Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:05:00.931857Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:05:00.931075Z&quot;}"
+data-papermill="{&quot;duration&quot;:0.111294,&quot;end_time&quot;:&quot;2025-01-15T19:05:00.933890&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:00.822596&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a pipeline for each set.</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>training_batches <span class="op">=</span> training_set.<span class="bu">map</span>(preprocessing).cache().shuffle(examples<span class="op">//</span><span class="dv">4</span>).batch(BATCH_SIZE).prefetch(<span class="dv">1</span>)</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>validation_batches <span class="op">=</span> validation_set.<span class="bu">map</span>(preprocessing).cache().batch(BATCH_SIZE).prefetch(<span class="dv">1</span>)</span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>test_batches <span class="op">=</span> test_set.<span class="bu">map</span>(preprocessing).cache().batch(BATCH_SIZE).prefetch(<span class="dv">1</span>)</span></code></pre></div>
+</div>
+<div id="e58915e6" class="cell code" data-execution_count="17"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:05:00.991402Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:05:00.990991Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:05:01.479714Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:05:01.478561Z&quot;}"
+data-papermill="{&quot;duration&quot;:0.520839,&quot;end_time&quot;:&quot;2025-01-15T19:05:01.481849&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:00.961010&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> image_batch, label_batch <span class="kw">in</span> training_batches.take(<span class="dv">1</span>):</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;Images in each batch have: &quot;</span>)</span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;datatype: &quot;</span>, image_batch.dtype)</span>
+<span id="cb41-4"><a href="#cb41-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&quot;shape: &quot;</span>, image_batch.shape )</span>
+<span id="cb41-5"><a href="#cb41-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb41-6"><a href="#cb41-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">&#39;There are a total of </span><span class="sc">{}</span><span class="st"> image labels in this batch: &#39;</span>.<span class="bu">format</span>(label_batch.numpy().size))</span>
+<span id="cb41-7"><a href="#cb41-7" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(label_batch.numpy())</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Images in each batch have: 
+datatype:  &lt;dtype: &#39;float32&#39;&gt;
+shape:  (64, 224, 224, 3)
+There are a total of 64 image labels in this batch: 
+[52 91 65 30 75  5 56 42 81 72 87 63 49 51 76 69 73 40 18 10 17 42 72 50
+ 77 46 31 50 84 23  2 88 75 91 63 89 65 88 81 79 87 37 39 81 51 49 72 40
+ 28 88 47 76 50 66 46 51 45 80 82 74 71 29 42  1]
+</code></pre>
+</div>
+</div>
+<div id="0d3c2e42" class="cell markdown"
+data-papermill="{&quot;duration&quot;:2.6905e-2,&quot;end_time&quot;:&quot;2025-01-15T19:05:01.536269&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:01.509364&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<blockquote>
+<p>Let's plot the normalized image and see how it looks like</p>
+</blockquote>
+</div>
+<div id="f2779d4a" class="cell code" data-execution_count="18"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:05:01.593234Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:05:01.592550Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:05:02.555826Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:05:02.555001Z&quot;}"
+data-papermill="{&quot;duration&quot;:0.996878,&quot;end_time&quot;:&quot;2025-01-15T19:05:02.561068&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:01.564190&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> image_batch, label_batch <span class="kw">in</span> training_batches.take(<span class="dv">1</span>):</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a>    images <span class="op">=</span> image_batch.numpy().squeeze()</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a>    labels <span class="op">=</span> label_batch.numpy()</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a><span class="co">## plotting the image </span></span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a>plt.imshow(images[<span class="dv">0</span>], cmap <span class="op">=</span> plt.cm.binary)</span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a>plt.colorbar()</span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a>plt.title(class_names[<span class="bu">str</span>(labels[<span class="dv">0</span>])])</span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="html_images/3b541c8895416ef247985da2d9cfffc9bfeceaaf.png" /></p>
+</div>
+</div>
+<div id="66450bc3" class="cell markdown" id="gR9gtRbeXPYx"
+data-papermill="{&quot;duration&quot;:3.3296e-2,&quot;end_time&quot;:&quot;2025-01-15T19:05:02.629622&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:02.596326&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="build-and-train-the-classifier">Build and Train the
+Classifier</h1>
+<p>Now that the data is ready, it's time to build and train the
+classifier. Using the MobileNet pre-trained model from TensorFlow Hub to
+get the image features. Then a new feed-forward classifier using those
+features is build and trained.</p>
+<p>Things done in this section:</p>
+<ul>
+<li>Load the MobileNet pre-trained network from TensorFlow Hub.</li>
+<li>Defined a new, untrained feed-forward network as a classifier.</li>
+<li>Trained the classifier.</li>
+<li>Plot the loss and accuracy values achieved during training for the
+training and validation set.</li>
+<li>Save trained model as a Keras model.</li>
+</ul>
+</div>
+<div id="5f15a254" class="cell markdown"
+data-papermill="{&quot;duration&quot;:3.0796e-2,&quot;end_time&quot;:&quot;2025-01-15T19:05:02.692491&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:02.661695&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h3 id="model-archeticture">Model Archeticture</h3>
+</div>
+<div id="36c29c4c" class="cell code" data-execution_count="19"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:05:02.759565Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:05:02.758707Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:05:02.763312Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:05:02.762292Z&quot;}"
+data-papermill="{&quot;duration&quot;:3.9966e-2,&quot;end_time&quot;:&quot;2025-01-15T19:05:02.764984&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:02.725018&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>EPOCHS <span class="op">=</span> <span class="dv">10</span></span></code></pre></div>
+</div>
+<div id="734101dc" class="cell code" data-execution_count="20"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:05:02.832593Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:05:02.831766Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:05:04.130872Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:05:04.130036Z&quot;}"
+data-papermill="{&quot;duration&quot;:1.33507,&quot;end_time&quot;:&quot;2025-01-15T19:05:04.132949&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:02.797879&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>url <span class="op">=</span> <span class="st">&quot;https://tfhub.dev/google/tf2-preview/mobilenet_v2/feature_vector/4&quot;</span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>feature_extractor <span class="op">=</span> hub.KerasLayer(url, input_shape<span class="op">=</span>(<span class="dv">224</span>, <span class="dv">224</span>, <span class="dv">3</span>))</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>feature_extractor.trainable <span class="op">=</span> <span class="va">False</span></span></code></pre></div>
+</div>
+<div id="cf349235" class="cell code" data-execution_count="21"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:05:04.198869Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:05:04.198557Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:05:04.770668Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:05:04.769624Z&quot;}"
+data-papermill="{&quot;duration&quot;:0.60809,&quot;end_time&quot;:&quot;2025-01-15T19:05:04.772929&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:04.164839&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> tf.keras.Sequential([feature_extractor,</span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>                            tf.keras.layers.Dense(classes, activation<span class="op">=</span><span class="st">&#39;softmax&#39;</span>)])</span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>model.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;sequential&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ keras_layer (KerasLayer)    (None, 1280)              2257984   
+                                                                 
+ dense (Dense)               (None, 102)               130662    
+                                                                 
+=================================================================
+Total params: 2388646 (9.11 MB)
+Trainable params: 130662 (510.40 KB)
+Non-trainable params: 2257984 (8.61 MB)
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<div id="3c0b2af9" class="cell markdown"
+data-papermill="{&quot;duration&quot;:3.2586e-2,&quot;end_time&quot;:&quot;2025-01-15T19:05:04.838074&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:04.805488&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h3 id="model-training">Model Training</h3>
+<p>When training make sure you're updating only the weights of the
+feed-forward network. You should be able to get the validation accuracy
+above 70% if you build everything right.</p>
+</div>
+<div id="fa5095bd" class="cell code" data-execution_count="22"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:05:04.903668Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:05:04.903327Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:05:04.918257Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:05:04.917302Z&quot;}"
+data-papermill="{&quot;duration&quot;:4.9543e-2,&quot;end_time&quot;:&quot;2025-01-15T19:05:04.920223&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:04.870680&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>model.<span class="bu">compile</span>(optimizer <span class="op">=</span> <span class="st">&#39;Adam&#39;</span>,</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>             loss<span class="op">=</span> <span class="st">&#39;sparse_categorical_crossentropy&#39;</span>,</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>             metrics <span class="op">=</span> [<span class="st">&#39;accuracy&#39;</span>])</span></code></pre></div>
+</div>
+<div id="e1a049cb" class="cell markdown"
+data-papermill="{&quot;duration&quot;:3.2812e-2,&quot;end_time&quot;:&quot;2025-01-15T19:05:04.985840&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:04.953028&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h4 id="training-callbacks">Training Callbacks</h4>
+</div>
+<div id="dc01ebf8" class="cell code" data-execution_count="23"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:05:05.054902Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:05:05.054561Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:05:05.059525Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:05:05.058733Z&quot;}"
+data-papermill="{&quot;duration&quot;:4.1661e-2,&quot;end_time&quot;:&quot;2025-01-15T19:05:05.061130&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:05.019469&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Save the Model with the lowest validation loss and use early stopping</span></span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a>early_stopping <span class="op">=</span> tf.keras.callbacks.EarlyStopping(monitor<span class="op">=</span><span class="st">&#39;val_loss&#39;</span>, patience<span class="op">=</span> <span class="dv">5</span>)</span>
+<span id="cb49-3"><a href="#cb49-3" aria-hidden="true" tabindex="-1"></a>save_best <span class="op">=</span> tf.keras.callbacks.ModelCheckpoint(<span class="st">&#39;./best_model.h5&#39;</span>,</span>
+<span id="cb49-4"><a href="#cb49-4" aria-hidden="true" tabindex="-1"></a>                                               monitor<span class="op">=</span><span class="st">&#39;val_loss&#39;</span>,</span>
+<span id="cb49-5"><a href="#cb49-5" aria-hidden="true" tabindex="-1"></a>                                               save_best_only<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div id="e2a3e675" class="cell code" data-execution_count="24"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:05:05.128801Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:05:05.128427Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:26:08.052056Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:26:08.050916Z&quot;}"
+data-papermill="{&quot;duration&quot;:1263.037532,&quot;end_time&quot;:&quot;2025-01-15T19:26:08.132688&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:05:05.095156&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="co">### Train the model</span></span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a>history <span class="op">=</span> model.fit(training_batches,</span>
+<span id="cb50-3"><a href="#cb50-3" aria-hidden="true" tabindex="-1"></a>                   epochs <span class="op">=</span> EPOCHS, </span>
+<span id="cb50-4"><a href="#cb50-4" aria-hidden="true" tabindex="-1"></a>                   validation_data <span class="op">=</span> validation_batches,</span>
+<span id="cb50-5"><a href="#cb50-5" aria-hidden="true" tabindex="-1"></a>                   callbacks <span class="op">=</span> [early_stopping, save_best])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/10
+77/77 [==============================] - 135s 2s/step - loss: 2.5724 - accuracy: 0.4637 - val_loss: 1.3913 - val_accuracy: 0.7081
+Epoch 2/10
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>/opt/conda/lib/python3.10/site-packages/keras/src/engine/training.py:3079: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save(&#39;my_model.keras&#39;)`.
+  saving_api.save_model(
+</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>77/77 [==============================] - 139s 2s/step - loss: 0.8885 - accuracy: 0.8443 - val_loss: 0.8602 - val_accuracy: 0.8220
+Epoch 3/10
+77/77 [==============================] - 121s 2s/step - loss: 0.5165 - accuracy: 0.9203 - val_loss: 0.6744 - val_accuracy: 0.8512
+Epoch 4/10
+77/77 [==============================] - 122s 2s/step - loss: 0.3585 - accuracy: 0.9500 - val_loss: 0.5738 - val_accuracy: 0.8748
+Epoch 5/10
+77/77 [==============================] - 126s 2s/step - loss: 0.2650 - accuracy: 0.9669 - val_loss: 0.5191 - val_accuracy: 0.8821
+Epoch 6/10
+77/77 [==============================] - 124s 2s/step - loss: 0.2055 - accuracy: 0.9766 - val_loss: 0.4799 - val_accuracy: 0.8870
+Epoch 7/10
+77/77 [==============================] - 124s 2s/step - loss: 0.1628 - accuracy: 0.9852 - val_loss: 0.4514 - val_accuracy: 0.8951
+Epoch 8/10
+77/77 [==============================] - 123s 2s/step - loss: 0.1327 - accuracy: 0.9906 - val_loss: 0.4294 - val_accuracy: 0.9000
+Epoch 9/10
+77/77 [==============================] - 123s 2s/step - loss: 0.1100 - accuracy: 0.9945 - val_loss: 0.4099 - val_accuracy: 0.9081
+Epoch 10/10
+77/77 [==============================] - 125s 2s/step - loss: 0.0928 - accuracy: 0.9967 - val_loss: 0.4001 - val_accuracy: 0.9008
+</code></pre>
+</div>
+</div>
+<div id="562e0c47" class="cell markdown"
+data-papermill="{&quot;duration&quot;:7.4568e-2,&quot;end_time&quot;:&quot;2025-01-15T19:26:08.283730&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:26:08.209162&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h3 id="model-evaluation">Model Evaluation</h3>
+</div>
+<div id="2e1b4485" class="cell code" data-execution_count="25"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:26:08.436838Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:26:08.435918Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:26:08.874487Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:26:08.873426Z&quot;}"
+id="VU6sWzx4e7Yb" data-outputId="f7b5c7c5-683a-463c-9228-68c4918bdd5b"
+data-papermill="{&quot;duration&quot;:0.518565,&quot;end_time&quot;:&quot;2025-01-15T19:26:08.876264&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:26:08.357699&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb54"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the loss and accuracy values achieved during training for the training and validation set.</span></span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>training_accuracy <span class="op">=</span> history.history[<span class="st">&#39;accuracy&#39;</span>]</span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a>validation_accuracy <span class="op">=</span> history.history[<span class="st">&#39;val_accuracy&#39;</span>]</span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>training_loss <span class="op">=</span> history.history[<span class="st">&#39;loss&#39;</span>]</span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a>validation_loss <span class="op">=</span> history.history[<span class="st">&#39;val_loss&#39;</span>]</span>
+<span id="cb54-6"><a href="#cb54-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-7"><a href="#cb54-7" aria-hidden="true" tabindex="-1"></a>epochs_range <span class="op">=</span> <span class="bu">range</span>(<span class="bu">len</span>(history.history[<span class="st">&#39;val_loss&#39;</span>]))</span>
+<span id="cb54-8"><a href="#cb54-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-9"><a href="#cb54-9" aria-hidden="true" tabindex="-1"></a>fig, (ax1, ax2) <span class="op">=</span> plt.subplots(<span class="dv">1</span>, <span class="dv">2</span>, figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">6</span>))</span>
+<span id="cb54-10"><a href="#cb54-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-11"><a href="#cb54-11" aria-hidden="true" tabindex="-1"></a>ax1.plot(epochs_range, training_accuracy, label<span class="op">=</span><span class="st">&#39;Training Accuracy&#39;</span>)</span>
+<span id="cb54-12"><a href="#cb54-12" aria-hidden="true" tabindex="-1"></a>ax1.plot(epochs_range, validation_accuracy, label<span class="op">=</span><span class="st">&#39;Validation Accuracy&#39;</span>)</span>
+<span id="cb54-13"><a href="#cb54-13" aria-hidden="true" tabindex="-1"></a>ax1.legend(loc<span class="op">=</span><span class="st">&#39;lower right&#39;</span>)</span>
+<span id="cb54-14"><a href="#cb54-14" aria-hidden="true" tabindex="-1"></a>ax1.set_title(<span class="st">&#39;Training and Validation Accuracy&#39;</span>)</span>
+<span id="cb54-15"><a href="#cb54-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-16"><a href="#cb54-16" aria-hidden="true" tabindex="-1"></a>ax2.plot(epochs_range, training_loss, label<span class="op">=</span><span class="st">&#39;Training Loss&#39;</span>)</span>
+<span id="cb54-17"><a href="#cb54-17" aria-hidden="true" tabindex="-1"></a>ax2.plot(epochs_range, validation_loss, label<span class="op">=</span><span class="st">&#39;Validation Loss&#39;</span>)</span>
+<span id="cb54-18"><a href="#cb54-18" aria-hidden="true" tabindex="-1"></a>ax2.legend(loc<span class="op">=</span><span class="st">&#39;lower right&#39;</span>)</span>
+<span id="cb54-19"><a href="#cb54-19" aria-hidden="true" tabindex="-1"></a>ax2.set_title(<span class="st">&#39;Training and Validation Loss&#39;</span>)</span>
+<span id="cb54-20"><a href="#cb54-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb54-21"><a href="#cb54-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Show the plot</span></span>
+<span id="cb54-22"><a href="#cb54-22" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="html_images/d98991ac5367dba20bcc727ab21deca05ee98237.png" /></p>
+</div>
+</div>
+<div id="15e7c970" class="cell markdown" id="qcTDnyvop3ky"
+data-papermill="{&quot;duration&quot;:7.3566e-2,&quot;end_time&quot;:&quot;2025-01-15T19:26:09.023865&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:26:08.950299&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h2 id="testing-your-network">Testing your Network</h2>
+<p>It's good practice to test your trained network on test data, images
+the network has never seen either in training or validation. This will
+give you a good estimate for the model's performance on completely new
+images. You should be able to reach around 70% accuracy on the test set
+if the model has been trained well.</p>
+</div>
+<div id="f541d124" class="cell code" data-execution_count="26"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:26:09.175956Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:26:09.175582Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:26:50.225077Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:26:50.224150Z&quot;}"
+id="79l7-HM1cafO" data-outputId="6cf468a4-1e27-4f20-d63a-a8bdd78bcdbe"
+data-papermill="{&quot;duration&quot;:41.205984,&quot;end_time&quot;:&quot;2025-01-15T19:26:50.304552&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:26:09.098568&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb55"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the loss and accuracy values achieved on the entire test set.</span></span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>loss, accuracy <span class="op">=</span> model.evaluate(test_batches)</span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Loss on testing set: &quot;</span>, loss)</span>
+<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Accuracy on testing set: &quot;</span>, accuracy)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>16/16 [==============================] - 22s 1s/step - loss: 0.5423 - accuracy: 0.8559
+Loss on testing set:  0.5423067212104797
+Accuracy on testing set:  0.8558823466300964
+</code></pre>
+</div>
+</div>
+<div id="db51100f" class="cell markdown" id="pLsIDWnuqfkl"
+data-papermill="{&quot;duration&quot;:7.0224e-2,&quot;end_time&quot;:&quot;2025-01-15T19:26:50.444297&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:26:50.374073&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h2 id="save-the-model">Save the Model</h2>
+<p>Now that your network is trained, save the model so you can load it
+later for making inference. In the cell below save your model as a Keras
+model (<em>i.e.</em> save it as an HDF5 file).</p>
+</div>
+<div id="74e69ddd" class="cell code" data-execution_count="27"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:26:50.590019Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:26:50.589399Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:26:50.718417Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:26:50.717681Z&quot;}"
+id="7XOwdOjSptp-"
+data-papermill="{&quot;duration&quot;:0.20488,&quot;end_time&quot;:&quot;2025-01-15T19:26:50.720487&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:26:50.515607&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb57"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Save your trained model as a Keras model.</span></span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>model.save(<span class="st">&#39;test_model.keras&#39;</span>) <span class="co">## I&#39;ll be using the best_model though wrote this line as required</span></span></code></pre></div>
+</div>
+<div id="1ebf989e" class="cell markdown" id="rbeLSRC1rxuj"
+data-papermill="{&quot;duration&quot;:6.6942e-2,&quot;end_time&quot;:&quot;2025-01-15T19:26:50.857597&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:26:50.790655&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h2 id="load-the-keras-model">Load the Keras Model</h2>
+<p>Load the Keras model you saved above.</p>
+</div>
+<div id="66d299a8" class="cell code" data-execution_count="28"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:26:50.996014Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:26:50.995669Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:26:52.362555Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:26:52.361557Z&quot;}"
+id="3T6Dgc7Nrzds" data-outputId="f5d356dc-183f-4cd3-f15d-88ebb4966082"
+data-papermill="{&quot;duration&quot;:1.438646,&quot;end_time&quot;:&quot;2025-01-15T19:26:52.364512&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:26:50.925866&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb58"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a><span class="co">## Load the Keras model</span></span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a>reloaded_model <span class="op">=</span> tf.keras.models.load_model(<span class="st">&#39;best_model.h5&#39;</span>, custom_objects <span class="op">=</span> {<span class="st">&#39;KerasLayer&#39;</span>:hub.KerasLayer})</span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a>reloaded_model.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;sequential&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ keras_layer (KerasLayer)    (None, 1280)              2257984   
+                                                                 
+ dense (Dense)               (None, 102)               130662    
+                                                                 
+=================================================================
+Total params: 2388646 (9.11 MB)
+Trainable params: 130662 (510.40 KB)
+Non-trainable params: 2257984 (8.61 MB)
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<div id="c66cc7d8" class="cell code" data-execution_count="29"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:26:52.522838Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:26:52.521952Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:27:33.937204Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:27:33.936074Z&quot;}"
+data-papermill="{&quot;duration&quot;:41.576539,&quot;end_time&quot;:&quot;2025-01-15T19:27:34.019542&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:26:52.443003&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb60"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Print the loss and accuracy values achieved on the entire test set for best model</span></span>
+<span id="cb60-2"><a href="#cb60-2" aria-hidden="true" tabindex="-1"></a>loss, accuracy <span class="op">=</span> reloaded_model.evaluate(test_batches)</span>
+<span id="cb60-3"><a href="#cb60-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb60-4"><a href="#cb60-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Loss on testing set: &quot;</span>, loss)</span>
+<span id="cb60-5"><a href="#cb60-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Accuracy on testing set: &quot;</span>, accuracy)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>16/16 [==============================] - 22s 1s/step - loss: 0.5423 - accuracy: 0.8559
+Loss on testing set:  0.5423067212104797
+Accuracy on testing set:  0.8558823466300964
+</code></pre>
+</div>
+</div>
+<div id="a56327fe" class="cell markdown" id="ZjucwuFrsyhJ"
+data-papermill="{&quot;duration&quot;:7.2686e-2,&quot;end_time&quot;:&quot;2025-01-15T19:27:34.166102&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:27:34.093416&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="inference-for-classification">Inference for Classification</h1>
+<h3 id="image-pre-processing">Image Pre-processing</h3>
+</div>
+<div id="523f7532" class="cell code" data-execution_count="30"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:27:34.315293Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:27:34.314914Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:27:34.320203Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:27:34.319282Z&quot;}"
+id="oG7mJ1-5s1qe"
+data-papermill="{&quot;duration&quot;:8.3865e-2,&quot;end_time&quot;:&quot;2025-01-15T19:27:34.321776&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:27:34.237911&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb62"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the process_image function</span></span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> process_image(image_path):</span>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb62-4"><a href="#cb62-4" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb62-5"><a href="#cb62-5" aria-hidden="true" tabindex="-1"></a><span class="co">        - image_path</span></span>
+<span id="cb62-6"><a href="#cb62-6" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb62-7"><a href="#cb62-7" aria-hidden="true" tabindex="-1"></a><span class="co">        - Preprocessed image</span></span>
+<span id="cb62-8"><a href="#cb62-8" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb62-9"><a href="#cb62-9" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> Image.<span class="bu">open</span>(image_path)</span>
+<span id="cb62-10"><a href="#cb62-10" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> np.asarray(image)</span>
+<span id="cb62-11"><a href="#cb62-11" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> tf.image.resize(image, IMAGE_SHAPE)</span>
+<span id="cb62-12"><a href="#cb62-12" aria-hidden="true" tabindex="-1"></a>    image <span class="op">=</span> tf.cast(image, tf.float32)</span>
+<span id="cb62-13"><a href="#cb62-13" aria-hidden="true" tabindex="-1"></a>    image <span class="op">/=</span> <span class="dv">255</span></span>
+<span id="cb62-14"><a href="#cb62-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> image</span></code></pre></div>
+</div>
+<div id="eacc6629" class="cell markdown"
+data-papermill="{&quot;duration&quot;:7.1313e-2,&quot;end_time&quot;:&quot;2025-01-15T19:27:34.464837&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:27:34.393524&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<p>To check your <code>process_image</code> function 4 images are
+provided in the <code>/kaggle/input/test-images</code> folder:</p>
+<ul>
+<li>cautleya_spicata.jpg</li>
+<li>hard-leaved_pocket_orchid.jpg</li>
+<li>orange_dahlia.jpg</li>
+<li>wild_pansy.jpg</li>
+</ul>
+</div>
+<div id="d003e52e" class="cell code" data-execution_count="31"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:27:34.610969Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:27:34.610577Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:27:37.915375Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:27:37.914389Z&quot;}"
+data-papermill="{&quot;duration&quot;:3.386451,&quot;end_time&quot;:&quot;2025-01-15T19:27:37.924349&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:27:34.537898&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb63"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb63-1"><a href="#cb63-1" aria-hidden="true" tabindex="-1"></a>test_images <span class="op">=</span> <span class="st">&quot;/kaggle/input/test-images&quot;</span> <span class="co">## I added a kaggle dataset as a test images included in the project workplace</span></span>
+<span id="cb63-2"><a href="#cb63-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb63-3"><a href="#cb63-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> test_image_path <span class="kw">in</span> os.listdir(test_images):</span>
+<span id="cb63-4"><a href="#cb63-4" aria-hidden="true" tabindex="-1"></a>    fig, (ax1, ax2) <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">10</span>), ncols<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb63-5"><a href="#cb63-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb63-6"><a href="#cb63-6" aria-hidden="true" tabindex="-1"></a>    test_image <span class="op">=</span> Image.<span class="bu">open</span>(os.path.join(test_images, test_image_path))</span>
+<span id="cb63-7"><a href="#cb63-7" aria-hidden="true" tabindex="-1"></a>    test_image <span class="op">=</span> np.asarray(test_image)</span>
+<span id="cb63-8"><a href="#cb63-8" aria-hidden="true" tabindex="-1"></a>    ax1.imshow(test_image)</span>
+<span id="cb63-9"><a href="#cb63-9" aria-hidden="true" tabindex="-1"></a>    ax1.set_title(<span class="st">&#39;Original Image&#39;</span>)</span>
+<span id="cb63-10"><a href="#cb63-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb63-11"><a href="#cb63-11" aria-hidden="true" tabindex="-1"></a>    processed_test_image <span class="op">=</span> process_image(os.path.join(test_images, test_image_path))</span>
+<span id="cb63-12"><a href="#cb63-12" aria-hidden="true" tabindex="-1"></a>    ax2.imshow(processed_test_image)</span>
+<span id="cb63-13"><a href="#cb63-13" aria-hidden="true" tabindex="-1"></a>    ax2.set_title(<span class="st">&#39;Processed Image&#39;</span>)</span>
+<span id="cb63-14"><a href="#cb63-14" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span>
+<span id="cb63-15"><a href="#cb63-15" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="html_images/355a8d71d2bef9529e26d3f8d896363c7b7a3f0c.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="html_images/ac64b81665d7f935168e221c4b5826d9e7c4e994.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="html_images/84dc641b8e231bd11cf3c28f3db19457d28efa34.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="html_images/3461cc30bed665b69e6a08f74168a9f67c2fcfbe.png" /></p>
+</div>
+</div>
+<div id="9d0c117b" class="cell markdown"
+data-papermill="{&quot;duration&quot;:0.115512,&quot;end_time&quot;:&quot;2025-01-15T19:27:38.158347&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:27:38.042835&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h3 id="inference">Inference</h3>
+<p>Now that the images are in the correct format, it's time to write the
+<code>predict</code> function for making inference with our model.</p>
+</div>
+<div id="89818366" class="cell code" data-execution_count="32"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:27:38.385371Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:27:38.384385Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:27:38.391707Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:27:38.390891Z&quot;}"
+id="SBnPKFJuGB32"
+data-papermill="{&quot;duration&quot;:0.124687,&quot;end_time&quot;:&quot;2025-01-15T19:27:38.393278&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:27:38.268591&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb64"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the predict function</span></span>
+<span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> predict(image_path, model, top_k):</span>
+<span id="cb64-3"><a href="#cb64-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb64-4"><a href="#cb64-4" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb64-5"><a href="#cb64-5" aria-hidden="true" tabindex="-1"></a><span class="co">        - image_path</span></span>
+<span id="cb64-6"><a href="#cb64-6" aria-hidden="true" tabindex="-1"></a><span class="co">        - model</span></span>
+<span id="cb64-7"><a href="#cb64-7" aria-hidden="true" tabindex="-1"></a><span class="co">        - top_k</span></span>
+<span id="cb64-8"><a href="#cb64-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb64-9"><a href="#cb64-9" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb64-10"><a href="#cb64-10" aria-hidden="true" tabindex="-1"></a><span class="co">        returns the top $K$ most likely class labels along with the probabilities.</span></span>
+<span id="cb64-11"><a href="#cb64-11" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb64-12"><a href="#cb64-12" aria-hidden="true" tabindex="-1"></a>    processed_image <span class="op">=</span> process_image(image_path)</span>
+<span id="cb64-13"><a href="#cb64-13" aria-hidden="true" tabindex="-1"></a>    expanded_image <span class="op">=</span> np.expand_dims(processed_image, axis<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb64-14"><a href="#cb64-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb64-15"><a href="#cb64-15" aria-hidden="true" tabindex="-1"></a>    model_prediction <span class="op">=</span> model.predict(expanded_image)</span>
+<span id="cb64-16"><a href="#cb64-16" aria-hidden="true" tabindex="-1"></a>     </span>
+<span id="cb64-17"><a href="#cb64-17" aria-hidden="true" tabindex="-1"></a>    top_k_probs, top_k_classes <span class="op">=</span> tf.nn.top_k(model_prediction, k<span class="op">=</span>top_k)</span>
+<span id="cb64-18"><a href="#cb64-18" aria-hidden="true" tabindex="-1"></a>    top_k_probs <span class="op">=</span> <span class="bu">list</span>(top_k_probs.numpy()[<span class="dv">0</span>])</span>
+<span id="cb64-19"><a href="#cb64-19" aria-hidden="true" tabindex="-1"></a>    top_k_classes <span class="op">=</span> <span class="bu">list</span>(top_k_classes.numpy()[<span class="dv">0</span>])</span>
+<span id="cb64-20"><a href="#cb64-20" aria-hidden="true" tabindex="-1"></a>     </span>
+<span id="cb64-21"><a href="#cb64-21" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> top_k_probs, top_k_classes, processed_image </span></code></pre></div>
+</div>
+<div id="d6401a63" class="cell markdown" id="aft8f_n5C7Co"
+data-papermill="{&quot;duration&quot;:0.113409,&quot;end_time&quot;:&quot;2025-01-15T19:27:38.619570&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:27:38.506161&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<h1 id="sanity-check">Sanity Check</h1>
+<p>It's always good to check the predictions made by the model to make
+sure they are correct. 4 images in the <code>./test_images/</code>
+folder are checked:</p>
+<ul>
+<li>cautleya_spicata.jpg</li>
+<li>hard-leaved_pocket_orchid.jpg</li>
+<li>orange_dahlia.jpg</li>
+<li>wild_pansy.jpg</li>
+</ul>
+</div>
+<div id="071edbbb" class="cell code" data-execution_count="33"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:27:38.841775Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:27:38.841432Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:27:38.847929Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:27:38.847122Z&quot;}"
+data-papermill="{&quot;duration&quot;:0.120414,&quot;end_time&quot;:&quot;2025-01-15T19:27:38.849567&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:27:38.729153&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb65"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb65-1"><a href="#cb65-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> plot_prop(test_image_path, processed_image, top_k_class_names, top_k_probs):</span>
+<span id="cb65-2"><a href="#cb65-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">&quot;&quot;&quot;</span></span>
+<span id="cb65-3"><a href="#cb65-3" aria-hidden="true" tabindex="-1"></a><span class="co">    Plots class probabilty with class names.</span></span>
+<span id="cb65-4"><a href="#cb65-4" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb65-5"><a href="#cb65-5" aria-hidden="true" tabindex="-1"></a><span class="co">        - ps</span></span>
+<span id="cb65-6"><a href="#cb65-6" aria-hidden="true" tabindex="-1"></a><span class="co">        - first_image</span></span>
+<span id="cb65-7"><a href="#cb65-7" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb65-8"><a href="#cb65-8" aria-hidden="true" tabindex="-1"></a><span class="co">        </span></span>
+<span id="cb65-9"><a href="#cb65-9" aria-hidden="true" tabindex="-1"></a><span class="co">    &quot;&quot;&quot;</span></span>
+<span id="cb65-10"><a href="#cb65-10" aria-hidden="true" tabindex="-1"></a>    fig, (ax1, ax2) <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">10</span>), ncols<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb65-11"><a href="#cb65-11" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb65-12"><a href="#cb65-12" aria-hidden="true" tabindex="-1"></a>    ax1.imshow(processed_image)</span>
+<span id="cb65-13"><a href="#cb65-13" aria-hidden="true" tabindex="-1"></a>    ax1.axis(<span class="st">&#39;off&#39;</span>)</span>
+<span id="cb65-14"><a href="#cb65-14" aria-hidden="true" tabindex="-1"></a>    ax1.set_title((os.path.basename(test_image_path)).replace(<span class="st">&#39;_&#39;</span>, <span class="st">&#39; &#39;</span>).replace(<span class="st">&quot;.jpg&quot;</span>, <span class="st">&quot;&quot;</span>))</span>
+<span id="cb65-15"><a href="#cb65-15" aria-hidden="true" tabindex="-1"></a>    ax2.barh(np.arange(<span class="dv">5</span>), top_k_probs)</span>
+<span id="cb65-16"><a href="#cb65-16" aria-hidden="true" tabindex="-1"></a>    ax2.set_aspect(<span class="fl">0.1</span>)</span>
+<span id="cb65-17"><a href="#cb65-17" aria-hidden="true" tabindex="-1"></a>    ax2.set_yticks(np.arange(<span class="dv">5</span>))</span>
+<span id="cb65-18"><a href="#cb65-18" aria-hidden="true" tabindex="-1"></a>    ax2.set_yticklabels(top_k_class_names, size<span class="op">=</span><span class="st">&#39;small&#39;</span>)</span>
+<span id="cb65-19"><a href="#cb65-19" aria-hidden="true" tabindex="-1"></a>    ax2.set_title(<span class="st">&#39;Class Probability:&#39;</span>)</span>
+<span id="cb65-20"><a href="#cb65-20" aria-hidden="true" tabindex="-1"></a>    ax2.set_xlim(<span class="dv">0</span>, <span class="fl">1.1</span>)</span>
+<span id="cb65-21"><a href="#cb65-21" aria-hidden="true" tabindex="-1"></a>    plt.tight_layout()</span></code></pre></div>
+</div>
+<div id="bc8d3f6b" class="cell markdown"
+data-papermill="{&quot;duration&quot;:0.120279,&quot;end_time&quot;:&quot;2025-01-15T19:27:39.126742&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:27:39.006463&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<p>In the cell below use <code>matplotlib</code> to plot the input image
+alongside the probabilities for the top 5 classes predicted by your
+model. Plot the probabilities as a bar graph. The plot should look like
+this: You can convert from the class integer labels to actual flower
+names using <code>class_names</code>.</p>
+</div>
+<div id="8a82699d" class="cell code" data-execution_count="34"
+data-execution="{&quot;iopub.execute_input&quot;:&quot;2025-01-15T19:27:39.375168Z&quot;,&quot;iopub.status.busy&quot;:&quot;2025-01-15T19:27:39.374784Z&quot;,&quot;iopub.status.idle&quot;:&quot;2025-01-15T19:27:42.468145Z&quot;,&quot;shell.execute_reply&quot;:&quot;2025-01-15T19:27:42.467135Z&quot;}"
+data-papermill="{&quot;duration&quot;:3.217695,&quot;end_time&quot;:&quot;2025-01-15T19:27:42.472736&quot;,&quot;exception&quot;:false,&quot;start_time&quot;:&quot;2025-01-15T19:27:39.255041&quot;,&quot;status&quot;:&quot;completed&quot;}"
+data-tags="[]">
+<div class="sourceCode" id="cb66"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> test_image_path <span class="kw">in</span> os.listdir(test_images):    </span>
+<span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a>    test_image <span class="op">=</span> Image.<span class="bu">open</span>(os.path.join(test_images, test_image_path))</span>
+<span id="cb66-3"><a href="#cb66-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb66-4"><a href="#cb66-4" aria-hidden="true" tabindex="-1"></a>    top_k_probs, top_k_classes, processed_image <span class="op">=</span> predict(os.path.join(test_images, test_image_path), reloaded_model, <span class="dv">5</span>)</span>
+<span id="cb66-5"><a href="#cb66-5" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb66-6"><a href="#cb66-6" aria-hidden="true" tabindex="-1"></a>    top_k_class_names <span class="op">=</span> []</span>
+<span id="cb66-7"><a href="#cb66-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> lable <span class="kw">in</span> top_k_classes:</span>
+<span id="cb66-8"><a href="#cb66-8" aria-hidden="true" tabindex="-1"></a>        top_k_class_names.append(class_names[<span class="bu">str</span>(lable<span class="op">+</span><span class="dv">1</span>)].title())</span>
+<span id="cb66-9"><a href="#cb66-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb66-10"><a href="#cb66-10" aria-hidden="true" tabindex="-1"></a>    plot_prop(test_image_path, processed_image, top_k_class_names, top_k_probs)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>1/1 [==============================] - 1s 724ms/step
+1/1 [==============================] - 0s 39ms/step
+1/1 [==============================] - 0s 40ms/step
+1/1 [==============================] - 0s 39ms/step
+</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="html_images/4e460d2aec08eda81723a56760a390717cb37bf2.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="html_images/3b5636693b880b142e71b19aa7dcea2526985ea2.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="html_images/8d3c0a87f74c8fb4c0ec034ad1cc7634bca261e4.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="html_images/ebe7f56b0985e2750b2d0daf8ef36896fcb401e3.png" /></p>
+</div>
+</div>
+</body>
+</html>
