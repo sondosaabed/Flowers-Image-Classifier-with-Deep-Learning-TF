@@ -1,8 +1,8 @@
 import json
-import tensorflow as tf
-import tensorflow_hub as hub
 from scripts.predict import predict
 from scripts.parser import get_args
+import tensorflow as tf
+import tensorflow_hub as hub
 
 args = get_args()
 

@@ -1,6 +1,5 @@
 import argparse
 
-
 # Creat a parser
 parser = argparse.ArgumentParser(description="A cmd application helps to identify type of flower using the image.")
 

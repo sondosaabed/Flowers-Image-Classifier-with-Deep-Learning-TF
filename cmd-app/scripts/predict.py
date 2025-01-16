@@ -1,4 +1,4 @@
-import utils
+from scripts.utils import process_image
 import numpy as np
 import tensorflow as tf
 
@@ -12,7 +12,7 @@ def predict(image_path, model, top_k):
     Returns:
         returns the top $K$ most likely class labels along with the probabilities.
     """
-    processed_image = utils.process_image(image_path)
+    processed_image = process_image(image_path)
     expanded_image = np.expand_dims(processed_image, axis=0)
     
     model_prediction = model.predict(expanded_image)
