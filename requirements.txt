@@ -714,7 +714,7 @@ unicodedata2 @ file:///home/conda/feedstock_root/build_artifacts/unicodedata2_17
 update-checker==0.18.0
 uri-template @ file:///home/conda/feedstock_root/build_artifacts/uri-template_1688655812972/work/dist
 uritemplate==3.0.1
-urllib3==1.26.18
+urllib3==1.26.19
 urwid==2.6.16
 urwid_readline==0.15.1
 uvicorn==0.30.1
