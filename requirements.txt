@@ -542,7 +542,7 @@ python-json-logger @ file:///home/conda/feedstock_root/build_artifacts/python-js
 python-louvain==0.16
 python-lsp-jsonrpc==1.1.2
 python-lsp-server==1.12.0
-python-multipart==0.0.9
+python-multipart==0.0.18
 python-slugify==8.0.4
 pytoolconfig==1.3.1
 pytools==2024.1.16
