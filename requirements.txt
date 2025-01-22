@@ -630,7 +630,7 @@ srsly @ file:///home/conda/feedstock_root/build_artifacts/srsly_1695653949688/wo
 stable-baselines3==2.1.0
 stack-data @ file:///home/conda/feedstock_root/build_artifacts/stack_data_1669632077133/work
 stanio==0.5.1
-starlette==0.37.2
+starlette==0.40.0
 statsmodels==0.14.2
 stopit==1.1.2
 stringzilla==3.10.10
