@@ -388,7 +388,7 @@ nb_conda @ file:///home/conda/feedstock_root/build_artifacts/nb_conda_1704789357
 nb_conda_kernels @ file:///home/conda/feedstock_root/build_artifacts/nb_conda_kernels_1714150048983/work
 nbclassic @ file:///home/conda/feedstock_root/build_artifacts/nbclassic_1716838762700/work
 nbclient==0.5.13
-nbconvert==6.4.5
+nbconvert==6.5.1
 nbdev==2.3.32
 nbdime==3.2.0
 nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1712238998817/work
