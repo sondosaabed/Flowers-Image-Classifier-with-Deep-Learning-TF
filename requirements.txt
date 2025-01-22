@@ -159,7 +159,7 @@ fastrlock @ file:///home/conda/feedstock_root/build_artifacts/fastrlock_17026962
 fasttext==0.9.3
 featuretools==1.31.0
 filelock==3.15.1
-fiona==1.9.6
+fiona==1.10.0
 flake8==7.1.1
 Flask==3.1.0
 flatbuffers==24.3.25
