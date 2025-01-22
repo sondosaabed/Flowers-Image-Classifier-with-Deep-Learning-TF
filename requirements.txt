@@ -292,7 +292,7 @@ jsonschema-specifications @ file:///tmp/tmpkv1z7p57/src
 jupyter-console==6.6.3
 jupyter-events @ file:///home/conda/feedstock_root/build_artifacts/jupyter_events_1710805637316/work
 jupyter-http-over-ws==0.0.8
-jupyter-lsp==1.5.1
+jupyter-lsp==2.2.2
 jupyter-server-mathjax==0.2.6
 jupyter-ydoc==0.2.5
 jupyter_client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1673615989977/work
