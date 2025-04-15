@@ -559,7 +559,7 @@ qtconsole==5.6.1
 QtPy==2.4.2
 raft-dask @ file:///opt/conda/conda-bld/work/python/raft-dask
 rapids-dask-dependency @ file:///opt/conda/conda-bld/work
-ray==2.24.0
+ray==2.43.0
 ray-cpp==2.24.0
 referencing @ file:///home/conda/feedstock_root/build_artifacts/referencing_1714619483868/work
 regex==2024.5.15
