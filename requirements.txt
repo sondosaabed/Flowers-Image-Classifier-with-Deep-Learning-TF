@@ -480,7 +480,7 @@ promise==2.3
 prompt_toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1718047967974/work
 prophet==1.1.6
 proto-plus==1.23.0
-protobuf==3.20.3
+protobuf==4.25.8
 psutil==5.9.3
 ptyprocess @ file:///home/conda/feedstock_root/build_artifacts/ptyprocess_1609419310487/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 pudb==2024.1.3
