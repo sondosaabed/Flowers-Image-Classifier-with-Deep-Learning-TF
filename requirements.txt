@@ -232,7 +232,7 @@ gviz-api==1.10.0
 gym==0.26.2
 gym-notices==0.0.8
 gymnasium==0.29.0
-h11==0.14.0
+h11==0.16.0
 h2o==3.46.0.6
 h5netcdf==1.4.1
 h5py==3.11.0
