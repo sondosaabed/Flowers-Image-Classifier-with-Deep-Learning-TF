@@ -529,7 +529,7 @@ pynvml @ file:///home/conda/feedstock_root/build_artifacts/pynvml_1639061605391/
 pynvrtc==9.2
 pyOpenSSL @ file:///home/conda/feedstock_root/build_artifacts/pyopenssl_1706660063483/work
 pyparsing==3.1.2
-pypdf==5.1.0
+pypdf==6.0.0
 pyproj==3.6.1
 pyshp @ file:///home/conda/feedstock_root/build_artifacts/pyshp_1659002966020/work
 PySocks @ file:///home/builder/ci_310/pysocks_1640793678128/work
