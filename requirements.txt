@@ -693,7 +693,7 @@ tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1714854870413/work
 traceml==1.0.8
 traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1713535121073/work
 traittypes==0.2.1
-transformers==4.52.1
+transformers==4.53.0
 treelite @ file:///home/conda/feedstock_root/build_artifacts/treelite_1721254174723/work/python
 truststore @ file:///home/conda/feedstock_root/build_artifacts/truststore_1694154605758/work
 trx-python==0.3
