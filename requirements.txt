@@ -113,7 +113,7 @@ db-dtypes==1.2.0
 deap==1.4.1
 debugpy @ file:///home/conda/feedstock_root/build_artifacts/debugpy_1707444420542/work
 decorator @ file:///home/conda/feedstock_root/build_artifacts/decorator_1641555617451/work
-deepdiff==8.0.1
+deepdiff==8.6.1
 defusedxml @ file:///home/conda/feedstock_root/build_artifacts/defusedxml_1615232257335/work
 Deprecated==1.2.14
 dill==0.3.8
