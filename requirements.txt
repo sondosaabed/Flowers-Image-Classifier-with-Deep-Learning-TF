@@ -312,7 +312,7 @@ jupytext==1.16.2
 kaggle==1.6.17
 kaggle-environments==1.16.9
 kagglehub==0.3.4
-keras==2.14.0
+keras==3.12.0
 keras-core==0.1.7
 keras-cv==0.9.0
 keras-hub==0.17.0
